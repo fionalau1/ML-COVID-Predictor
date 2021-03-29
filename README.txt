@@ -1,3 +1,12 @@
+This is a COVID-19 cases predictor based on U.S. county.
+
+How to run: 
+
+git clone https://github.com/fionalau1/ML-COVID-Predictor.git
+python lr.py
+python decisionTrees.py
+python randomForests.py
+
 Original data folder:
 - Average Household Size and Population Density - County.csv
 - us_covid19_states_policies.csv
@@ -27,4 +36,21 @@ Models folder:
 - randomForests.py (performs additional preprocessing and builds random forest models)
 - ensembleFeatSelect.py (selects significant features from linear regression for models in the previous two python files)
 
+Data Sources:
+1) https://covid19.census.gov/datasets/21843f238cbb46b08615fc53e19e0daf_1/data?geometry=38.109%2C-0.672%2C-37.477%2C76.524&selectedAttribute=B25010_001E
+(Population Density, Population Size, Number of Households) 
 
+2) https://www.kaggle.com/c/mapping-the-impact-of-policy-on-covid-19-outbreaks/data
+(COVID containment policies for all 50 states, Max-Distance Mobility)
+
+3) https://covid19.census.gov/datasets/race-and-ethnicity-county/data
+(Race/Ethnicity)
+
+4) https://www.kaggle.com/johnwdata/2016-election-county-election-data
+(Political Affiliation)
+
+5) https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/
+(Number of daily COVID cases between 1/22/20 - 10/05/20 for each county in the U.S.)
+
+6) https://www.kaggle.com/ady123/us-counties-covid19-dataset?select=data.csv
+(Income, Poverty, Education Level)
