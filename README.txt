@@ -1,4 +1,6 @@
-This is a COVID-19 cases predictor by U.S. county. The machine learning model incorporates 32 different features and utilizes linear regression, decision tree, random forest, and other ensemble methods to predict future number of cases. The data includes 350,000 records and 70% was used for training and 30% was used for testing.
+This is a COVID-19 cases predictor by U.S. county. The machine learning model incorporates 32 different features and utilizes linear regression, decision tree, 
+random forest, and other ensemble methods to predict future number of cases. The data includes 350,000 records and 70% was used for training and 30% was used 
+for testing.
 
 How to run: 
 
