@@ -6,13 +6,14 @@ for testing.
 
 ## How to run: 
 
-- git clone https://github.com/fionalau1/ML-COVID-Predictor.git
-- cd Models
-- python lr.py
-- python decisionTrees.py
-- python randomForests.py
+````
+git clone https://github.com/fionalau1/ML-COVID-Predictor.git
+cd Models
+python lr.py
+python decisionTrees.py python randomForests.py
+````
 
-Original data folder:
+### Original data folder:
 - Average Household Size and Population Density - County.csv
 - us_covid19_states_policies.csv
 - us-m50.csv
@@ -21,7 +22,7 @@ Original data folder:
 - covid_confirmed_usafacts.csv
 - data.csv
 
-Data Cleaning folder:
+### Data Cleaning folder:
 - demographicOld.csv
 - DemographicsKNN.py (reads demographicOld.csv, fills in missing values, and exports demographic.csv)
 - mobilityOld.csv
@@ -35,13 +36,13 @@ Data Cleaning folder:
 - labeledData1.csv (different to labeledData.csv because government policies are set to binary instead of dates. Used specifically for linear regression models)
 
 
-Models folder:
+### Models folder:
 - lr.py (builds linear regression models and performs hyperparameter tuning) 
 - decisionTrees.py (performs additional preprocessing and builds decision tree models)
 - randomForests.py (performs additional preprocessing and builds random forest models)
 - ensembleFeatSelect.py (selects significant features from linear regression for models in the previous two python files)
 
-Data Sources:
+### Data Sources:
 1) https://covid19.census.gov/datasets/21843f238cbb46b08615fc53e19e0daf_1/data?geometry=38.109%2C-0.672%2C-37.477%2C76.524&selectedAttribute=B25010_001E
 (Population Density, Population Size, Number of Households) 
 
