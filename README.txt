@@ -3,6 +3,7 @@ This is a COVID-19 cases predictor by U.S. county. The machine learning model in
 How to run: 
 
 git clone https://github.com/fionalau1/ML-COVID-Predictor.git
+cd models
 python lr.py
 python decisionTrees.py
 python randomForests.py
