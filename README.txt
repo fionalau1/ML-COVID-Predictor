@@ -1,14 +1,16 @@
+# README
+
 This is a COVID-19 cases predictor by U.S. county. The machine learning model incorporates 32 different features and utilizes linear regression, decision tree, 
 random forest, and other ensemble methods to predict future number of cases. The data includes 350,000 records and 70% was used for training and 30% was used 
 for testing.
 
-How to run: 
+## How to run: 
 
-git clone https://github.com/fionalau1/ML-COVID-Predictor.git
-cd Models
-python lr.py
-python decisionTrees.py
-python randomForests.py
+- git clone https://github.com/fionalau1/ML-COVID-Predictor.git
+- cd Models
+- python lr.py
+- python decisionTrees.py
+- python randomForests.py
 
 Original data folder:
 - Average Household Size and Population Density - County.csv
