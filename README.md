@@ -1,8 +1,9 @@
 # README
 
-This is a COVID-19 cases predictor by U.S. county. The machine learning model incorporates 32 different features, such as government policies, 
-population size, mobility rates, and race/ethnicity, and utilizes linear regression, decision tree, random forest, and other ensemble methods 
-to predict future number of county cases. The data includes 350,000 records; 70% was used for training and 30% was used for testing.
+This is a COVID-19 cases predictor by U.S. county. The machine learning model utilizes linear regression, decision tree, random forest, and 
+other ensemble methods to predict future number of county cases. The model incorporates 32 different features, such as government policies, 
+population size, mobility rates, and race/ethnicity. The data includes 350,000 records: 70% of the data was used for training and 30% was 
+used for testing.
 
 ## How to run: 
 
