@@ -1,8 +1,8 @@
 # README
 
-This is a COVID-19 cases predictor by U.S. county. The machine learning model incorporates 32 different features and utilizes linear regression, decision tree, 
-random forest, and other ensemble methods to predict future number of cases. The data includes 350,000 records and 70% was used for training and 30% was used 
-for testing.
+This is a COVID-19 cases predictor by U.S. county. The machine learning model incorporates 32 different features, such as government policies, 
+population size, mobility rates, and race/ethnicity, and utilizes linear regression, decision tree, random forest, and other ensemble methods 
+to predict future number of county cases. The data includes 350,000 records; 70% was used for training and 30% was used for testing.
 
 ## How to run: 
 
@@ -15,8 +15,8 @@ python randomForests.py
 ````
 
 ### Output:
-Each python file corresponds to one of the linear regression, decision tree, or random forest models. Note: the linear regression output is used to inform
-other ensemble methods within decisionTrees.py and randomForests.py.
+Each python file corresponds to one of the linear regression, decision tree, or random forest models. Note: the linear regression output is 
+used to inform other ensemble methods within decisionTrees.py and randomForests.py.
 After running ly.py, decisionTrees.py or randomForests.py, the output of the regression results and performance will be printed in the terminal. 
 
 
