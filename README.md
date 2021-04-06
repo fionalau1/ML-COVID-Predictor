@@ -10,8 +10,21 @@ for testing.
 git clone https://github.com/fionalau1/ML-COVID-Predictor.git
 cd Models
 python lr.py
-python decisionTrees.py python randomForests.py
+python decisionTrees.py 
+python randomForests.py
 ````
+
+### Output:
+Each python file corresponds to one of the linear regression, decision tree, or random forest models. Note: the linear regression output is used to inform
+other ensemble methods within decisionTrees.py and randomForests.py.
+After running ly.py, decisionTrees.py or randomForests.py, the output of the regression results and performance will be printed in the terminal. 
+
+
+### Models folder:
+- lr.py (builds linear regression models and performs hyperparameter tuning) 
+- decisionTrees.py (performs additional preprocessing, builds decision tree models, builds other ensemble models)
+- randomForests.py (performs additional preprocessing,  builds random forest models, builds other ensemble models)
+- ensembleFeatSelect.py (performs significance testing, selects important features from linear regression for ensemble methods)
 
 ### Original data folder:
 - Average Household Size and Population Density - County.csv
@@ -34,13 +47,6 @@ python decisionTrees.py python randomForests.py
 - dataCleaning.py (reads in cases.csv, policies.csv, demographic.csv, and mobility.csv and combines them into one final labeled dataset called labeledData.csv)
 - labeledData.csv
 - labeledData1.csv (different to labeledData.csv because government policies are set to binary instead of dates. Used specifically for linear regression models)
-
-
-### Models folder:
-- lr.py (builds linear regression models and performs hyperparameter tuning) 
-- decisionTrees.py (performs additional preprocessing and builds decision tree models)
-- randomForests.py (performs additional preprocessing and builds random forest models)
-- ensembleFeatSelect.py (selects significant features from linear regression for models in the previous two python files)
 
 ### Data Sources:
 1) https://covid19.census.gov/datasets/21843f238cbb46b08615fc53e19e0daf_1/data?geometry=38.109%2C-0.672%2C-37.477%2C76.524&selectedAttribute=B25010_001E
